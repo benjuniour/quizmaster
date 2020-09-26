@@ -40,7 +40,7 @@ class quizGUI:
         
     
     def loadData(self):
-        with open("hist151_test1.txt") as file:
+        with open("hist151_test1_dates.txt") as file:
             lines = file.readlines()
             shuffle(lines)
             
