@@ -102,7 +102,7 @@ class quizGUI:
     def write_wrong_answersToTextFile(self):
         with open ("answered_wrong.txt", "w") as wrongfile:
             for term, definition in self.wronganswers.items() :
-                wrongfile.write(term + "-->" + definition +"\n")
+                wrongfile.write(term + "      " + definition +"\n")
             
         
 window = Tk()
